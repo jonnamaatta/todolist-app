@@ -1,13 +1,20 @@
+
+var input = document.getElementById('newtask');
+
+input.addEventListener('keyup', function(event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    document.getElementById('push').click();
+  }
+});
+
+
 document.querySelector('#push').onclick = function() {
     if(document.querySelector('#newtask input').
     value.length == 0){
         alert("Please enter a task")
     }
-    else{
-        var text = document.querySelector('#defaulttext')
-        if(text != null) {
-            text.remove();
-        }
+    else{   
         document.querySelector('#tasks').innerHTML
         += `
             <div class="task">
