@@ -9,15 +9,24 @@
 body {
     height: 100vh;
     background-color: #8EC5FC;
-    background-image: linear-gradient(62deg, #788AFF 0%, #abb6ff 100%);
+    background-image: linear-gradient(62deg, #6070ff 0%, #abb6ff 100%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    text-decoration-thickness: 1px;
+}
 
 #top {
     font-family: 'Poppins', sans-serif;
-    font-size: 20px;
+    font-size: 17px;
     color: #ffffff;
     position: relative;
     padding: 50px;
@@ -26,6 +35,12 @@ body {
     min-height: 200px;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    #top {
+      font-size: 15px;
+    }
+  }
 
 #bottom {
     min-height: 30px;
@@ -47,7 +62,7 @@ body {
 #newtask {
     position: relative;
     background-color: #ffffff;
-    padding: 30px 20px;
+    padding: 30px 15px;
     padding-bottom: 60px;
     border-bottom: 5px solid;
     border-image-slice: 1;
