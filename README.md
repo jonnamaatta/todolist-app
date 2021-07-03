@@ -1,4 +1,4 @@
 # todolist-app
  "To-do list" -web app made with Vanilla JS, CSS and HTML. Simple UI.
-![Capture](https://user-images.githubusercontent.com/62879239/124022514-91b97f00-d9f5-11eb-91ca-668e8601d51f.PNG)
+![newpage](https://user-images.githubusercontent.com/62879239/124343320-3f35b980-dbd3-11eb-8e8b-e30b1b5d8eb6.PNG)
 
